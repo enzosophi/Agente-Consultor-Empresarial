@@ -70,12 +70,14 @@ flowchart TD
 
 ### Estratégias Adotadas
 
-- [ ] [ex: Agente só responde com base nos dados fornecidos]
-- [ ] [ex: Respostas incluem fonte da informação]
-- [ ] [ex: Quando não sabe, admite e redireciona]
-- [ ] [ex: Não faz recomendações de investimento sem perfil do cliente]
+- [X] Busca base de dados reais para gerar um insight
+- [X] Deve incluir fonte de informação
+- [X] Quando não sabe, admite e redireciona
+- [X] Não gera auxílio se não for contextualizado o tipo de problema
 
 ### Limitações Declaradas
 > O que o agente NÃO faz?
 
-Informações fora do contexto da Braskem e temas que não atendem a mercado financeiro e empresas diretamente
+Informações fora do contexto da Braskem e temas que não atendem a mercado financeiro e empresas diretamente.
+Não retorna dados sensiveis pessoais.
+Não substitui o decreto de um gestor ou de um analista.
