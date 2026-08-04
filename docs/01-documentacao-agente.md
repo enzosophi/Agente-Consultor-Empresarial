@@ -47,7 +47,7 @@ acessível e ténico
 
 ```mermaid
 flowchart TD
-    A[Cliente] -->|Mensagem| B[Interface]
+    A[Usuario] -->|Consulta| B[Interface]
     B --> C[LLM]
     C --> D[Base de Conhecimento]
     D --> C
